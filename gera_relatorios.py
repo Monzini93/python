@@ -3,8 +3,8 @@ import numpy as np
 import os
 from openpyxl import load_workbook
 
-dir_principal = '/Users/yurim/Documents/python/gera_relatorios'
-#dir_principal = '/Users/Leonardo/Desktop/Tocalivros Dropbox/Campsoft/Geral/Relatórios/provedores'
+#dir_principal = '/Users/yurim/Documents/python/gera_relatorios'
+dir_principal = '/Users/Leonardo/Desktop/Tocalivros Dropbox/Campsoft/Geral/Relatórios/provedores'
 
 ### Verifica se o diretório existe e o cria se não existir. ###
 def criar_diretorio(caminho):
