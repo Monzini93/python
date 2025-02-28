@@ -26,7 +26,7 @@ start_time = datetime.now()
 print(f"START_TIME: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
 
 # Configurar a URL de conexão do banco de dados
-db_url = f"mysql+mysqlconnector://{os.environ['user_campsoft']}:{os.environ['password_campsoft']}@{os.environ['server_campsoft']}/campsoft"
+db_url = f"mysql+mysqlconnector://{'yuri']}:{'y*u&r%i.'}@{'campsoftdb.c376ljpyburn.sa-east-1.rds.amazonaws.com']}/campsoft"
 
 # Criar um engine SQLAlchemy
 engine = create_engine(db_url)
