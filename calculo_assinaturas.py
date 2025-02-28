@@ -7,10 +7,10 @@ import numpy as np
 import gera_relatorios # type: ignore
 
 conn = mysql.connector.connect(
-    host=os.environ['server_campsoft'],
-    user=os.environ['user_campsoft'],
-    password=os.environ['password_campsoft'],
-    database="campsoft"
+    host='campsoftdb.c376ljpyburn.sa-east-1.rds.amazonaws.com',
+    user='yuri',
+    password='y*u&r%i.',
+    database='campsoft'
 )
 cursor = conn.cursor()
 
